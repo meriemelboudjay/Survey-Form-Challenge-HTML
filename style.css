@@ -1,0 +1,68 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(90, 80, 190, 0.8), rgba(90, 80, 190, 0.8)), url("images/teamWork.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+h1{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+p{
+    font-style: italic;
+    font-weight: 500;
+}
+form{
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(27, 27, 50, 0.85);
+    margin: 20px auto;
+    padding: 20px ;
+    text-align: left;
+}
+label{
+    color: white;
+    
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 6px 0 0;
+}
+
+#name ,#email, #age ,#submit , #comments, select {
+    width: 100%;
+    padding: 4px 6px;
+}
+select option[disabled] {
+    color: #757575;
+}
+select:invalid {
+    color: #757575;
+}
+
+select option {
+    color: black;
+}
+#comments{
+    height: 70px;
+    font-family: inherit;
+    resize: vertical;
+}
+#submit{
+    background-color: #34ad63;
+    height: 30px;
+    border-radius: 2px;
+    border: 0 ;
+    color: white;
+    cursor: pointer;
+}
